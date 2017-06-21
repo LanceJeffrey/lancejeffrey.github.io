@@ -25,13 +25,15 @@ html {
     margin: auto;
 }
 
+
 body {
     display: table-cell;
     vertical-align: middle;
 	max-width:1024px;
-	background:#eee;
+	background:#ddd;
 	padding-top:90px;
-	font-family: "Raleway", sans-serif;
+	color:#37475a;
+	font-family: sans-serif;
 }
 nav{
 	width:100%;
@@ -40,9 +42,8 @@ nav{
 	left:0px;
 	position: fixed;
 	text-align:center;
-	background:#3f51b5;
+	background:#081833;
 	color:#ffffff;
-	font-family:Consolas,"courier new";
 }
 .profile {
     display: flex;
@@ -50,36 +51,35 @@ nav{
 }
 .contact, .educations, .about, .experience, .skills, .projects, .socal{
 	box-shadow:0 2px 15px #5E5E5E;
-	background:#fff;
+	background-color:#FAFAFA;
 	margin:20px!important;
 }
 .title {
 	font-size:24px;
-	color:#3f51b5;
+	color:#081833;
 	text-align:center;
 }
+
 a {
-	color:#000;
+	color:#37475a;
 	list-style-type: none;
 	text-decoration:none;
 	display:list-item;
 }
-a:hover {
-	color:#FFF;
-	background-color:#52c7b8;
+.email, .phone, .website {
+	font-size:18px;
 }
+.email:hover, .phone:hover, .website:hover {
+	color:#e54a35;
+}
+
 .name {
 	font-size:30px;
 	font-weight:400;
     font-weight: bold;
-	font-family: "Raleway", sans-serif;
+	font-family: sans-serif;
 }
-.dates{ 
-	color:#666;
-}
-.duration{
-	color:#666;
-}
+
 .face{
     position:absolute;top:0;left:0;
 	height:80px;
@@ -114,25 +114,26 @@ a:hover {
     }
 }
 .education, .role, .skill, .project, .about-details{
-	border-left: 2px solid #009688;
 	margin:10px;
 	padding:5px;
 }
 .education:hover, .role:hover, .skill:hover, .project:hover, .about-details:hover{
-	border-left: 2px solid #009688;
-	background-color: #ecf9f7;
-	margin:10px;
-	padding:5px;
 }
 .subsection-title {
-	font-size:20px;
-    font-weight: bold;
+	color:#e54a35;
+	font-size:19px;
 }
-.institution{
-	font-size:20px;
+.institution {
+	color:#081833;
+}
+.institution:hover {
+	text-decoration: underline;
 }
 .socal{
 	text-align:center;
+}
+.socal a:hover{
+	color:#e54a35;
 }
 h2{
     display: block;
@@ -204,12 +205,6 @@ footer {
 			class="institution">Swinburne University of Technology</a>
 		<div class="location">Melbourne</div>
 		<div class="dates">2008 – 2013</div>
-		<div class="details">
-			<ul>
-				<li>Graduated with honours </li>
-				<li>Student mentor</li>
-			</ul>
-		</div>
 	</div>
 
 	<div class="education">
@@ -226,15 +221,14 @@ footer {
 		<div class="subsection-title">Software Engineer</div>
 		<a target="_blank" href="https://www.thalesgroup.com"
 			class="institution">Thales, Air Traffic Management</a>
-		<div class="location">Melbourne, & Singapore</div>
+		<div class="location">Melbourne, and Singapore</div>
 		<div class="dates">Jan 2014 – Present</div>
 		<div class="duration"></div>
 		<div class="details">
 			<ul>
-				<li>Java User Interface Development</li>
-				<li>Performance improvement focused</li>
-				<li>Safety / mission critical system</li>
-				<li>Experience in software testing</li>
+				<li>Java UI Development</li>
+				<li>High Performance</li>
+				<li>Safety & Mission critical</li>
 			</ul>
 		</div>
 	</div>
