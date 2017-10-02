@@ -19,13 +19,10 @@
 html, body {
     height: 100%;
 }
-
 html {
     display: table;
     margin: auto;
 }
-
-
 body {
     display: table-cell;
     vertical-align: middle;
@@ -59,7 +56,6 @@ nav{
 	color:#081833;
 	text-align:center;
 }
-
 a {
 	color:#37475a;
 	list-style-type: none;
@@ -72,14 +68,15 @@ a {
 .email:hover, .phone:hover, .website:hover {
 	color:#e54a35;
 }
-
 .name {
 	font-size:30px;
 	font-weight:400;
     font-weight: bold;
 	font-family: sans-serif;
 }
-
+.job, .location{
+	color:#e54a35;
+}
 .face{
     position:absolute;top:0;left:0;
 	height:80px;
@@ -126,9 +123,7 @@ a {
 .institution {
 	color:#081833;
 }
-.institution:hover {
-	text-decoration: underline;
-}
+
 .socal{
 	text-align:center;
 }
@@ -179,39 +174,9 @@ footer {
 	<a target="_blank" href="http://lancejeffrey.com" class="website">lancejeffrey.com</a>
 </section>
 <section class="about">
-	<h2 class="title">About</h2>
+	<h2 class="title">Skills</h2>
 	<div class="about-details">
-	<p>
-		Lance Jeffrey is a young engineer with a wide varity of indutry experince specializing in distributed, safety / mission critical and real-time applications. His experience in software and electrical design and development spans a number of large and small projects in the manufacturing and aerospace domains.
-	</p>
-	<p>
-		As a Software Engineer, he is committed well designed high performance components. His focus has been on performance improvements for a well established code base while generating customer value, and satifaction.
-	</p>
-	<p>
-		Lance learnt valuable skills in self reliance, cusomter interaction, and team communication while working with a small team in Singapore and being situtated more then 6000km (and 3 time zones) from the bulk of his team.
-	</p>
-	<p>
-		His interests include mobile, web, and IOT technologies and spents much of his spare time participating in courses from Coursera, and Lynda, as well as working on other projects for self improvement.
-	</p>
-	</div>
-</section>
-
-<section class="educations">
-	<h2 class="title">Education</h2>
-	<div class="education">
-		<div class="subsection-title">Bachelor of Engineering (Robotics and Mechatronics) (Hons.)</div>
-		<div class="subsection-title">Bachelor of Science (Computer Science and Software Engineering)</div>
-		<a target="_blank" href="http://www.swinburne.edu.au/"
-			class="institution">Swinburne University of Technology</a>
-		<div class="location">Melbourne</div>
-		<div class="dates">2008 – 2013</div>
-	</div>
-
-	<div class="education">
-		<div class="subsection-title">Victorian Certificate of Education (VCE)</div>
-		<a target="_blank" href="http://mtclearsc.vic.edu.au/" class="institution">Mt Clear College</a>
-		<div class="location">Ballarat</div>
-		<div class="dates">2007</div>
+	<p>Experienced Java software engineer with a focus on performance. Also Experienced with Git, Gradle, C, Ada, C++, C#, Android, and iOS.</p>
 	</div>
 </section>
 
@@ -219,112 +184,99 @@ footer {
 	<h2 class="title">Experience</h2>
 	<div class="role">
 		<div class="subsection-title">Software Engineer</div>
-		<a target="_blank" href="https://www.thalesgroup.com"
-			class="institution">Thales, Air Traffic Management</a>
+		<div class="institution">Thales, Air Traffic Management</div>
 		<div class="location">Melbourne, and Singapore</div>
 		<div class="dates">Jan 2014 – Present</div>
 		<div class="duration"></div>
 		<div class="details">
+		Working on the T-HMI (TopSky Human Machine Interface) with a focus on performance while still achieving functional improvements and corrective maintenance.<br/> Starting in the performance team before then moving to the LORADS III (Singapore) team, and recently moving to the TopSky HE (mid level product for South Africa, Thailand, and Others) team.
 			<ul>
-				<li>Java UI Development</li>
-				<li>High Performance</li>
-				<li>Safety & Mission critical</li>
+				<li>Innovation</li>
+					<ul>
+						<li>Introduction of Design Thinking to Thales ATM</li>
+					</ul>
+				<li>Singapore Mission (Apr - Dec 2016)</li>
+					<ul>
+						<li>On-site and on call support for customer and system upgrades</li>
+						<li>Prepare and support performance testing with the customer</li>
+						<li>Provided training to customers technical staff</li>
+					</ul>
+				<li>Performance</li>
+					<ul>
+						<li>OpenGL performance improvements</li>
+						<li>Track display optimisation</li>
+						<li>General performance upgrades</li>
+						<li>Performance monitoring and primary contact</li>
+					</ul>
 			</ul>
 		</div>
 	</div>
-	
+
+	<div class="role">
+		<div class="subsection-title">Trumpit</div>
+		<div class="institution">Trumpit Group & Swinburne University of Technology</div>
+		<div class="dates">Feb 2013 – Nov 2013</div>
+		<div class="details">
+			An invitational, filtered marketing startup comprising web application, two mobile applications, and a server.
+			<ul>
+				<li>Lead iOS Developer</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="role">
+		<div class="subsection-title">CHESTER​ ​The​ ​chessboard</div>
+		<div class="institution">Swinburne University of Technology</div>
+		<div class="dates">Feb 2012 – Nov 2012</div>
+		<div class="details">
+			Development of a traditional, static chess set into a modern, self-moving board, but without visible manipulation. A human can sit down at a Chester and manually move their pieces, while the board can move the opponent’s pieces.
+			<ul>
+				<li>Lead Electrical Engineer</li>
+			</ul>
+		</div>
+	</div>
+
 	<div class="role">
 		<div class="subsection-title">Electrical Systems Engineer</div>
-		<a target="_blank" href="https://www.anca.com"
-			class="institution">ANCA Machine Tools</a>
+		<div class="institution">ANCA Machine Tools</div>
 		<div class="location">Melbourne</div>
 		<div class="dates">Jan 2011 – Apr 2013</div>
-		<div class="duration">(5 years 10 months)</div>
 		<div class="details">
-			<ul>
-				<li>Design of Electrical power and control systems for new product introduction, continuous improvement and customer specials.</li>
-				<li>Control Programming in ANCA PLC for many projects</li>
-				<li>Safety critical system</li>
-				<li>Worked with international manufacturing</li>
-			</ul>
+			Student Engineer with the electrical systems team. Design of Electrical power and control systems for new product introduction, continuous improvement and customer specials for machine tools.
 		</div>
 	</div>
-	
+
 	<div class="role">
 		<div class="subsection-title">Crew</div>
-		<a target="_blank" href="https://mcdonalds.com.au/"
-			class="institution">McDonalds</a>
+		<div class="institution">McDonalds</div>
 		<div class="location">Bakery hill, & Kew</div>
 		<div class="dates">Nov 2004 - Jan 2011</div>
-		<div class="duration">(6 years 2 months)</div>
 	</div>
-	
+
 	<div class="role ">
 		<div class="subsection-title">Costume Staff (Printer)</div>
-		<a target="_blank" href="http://www.sovereignhill.com.au"
-			class="institution">Sovereign Hill Historical Park</a>
+		<div class="institution">Sovereign Hill Historical Park</div>
 		<div class="location">Ballarat</div>
 		<div class="dates">Aug 2004 – Feb 2008</div>
-		<div class="duration">(2 years 3 months)</div>
 	</div>
-
 </section>
 
-<!--section class="skills">
-	<h2 class="title">Skills</h2>
-	<div class="skill">
-		<div class="subsection-title">Mad Skills</div>
-		<div class="details">
-			lance has mad nunchaku skills
-		</div>
+<section>
+<section class="educations">
+	<h2 class="title">Education</h2>
+	<div class="education">
+		<div class="subsection-title">Bachelor of Engineering (Robotics and Mechatronics) (Hons.)</div>
+		<div class="subsection-title">Bachelor of Science (Computer Science and Software Engineering)</div>
+		<div class="institution">Swinburne University of Technology</div>
+		<div class="location">Melbourne</div>
+		<div class="dates">2008 – 2013</div>
 	</div>
-</section-->
 
-<section class="projects">
-	<h2 class="title">Projects</h2>
-	<div class="project">
-		<div class="subsection-title">Trumpit</div>
-		<div class="institution">Trumpit Group Pty Ltd & <a target="_blank" href="http://www.swinburne.edu.au/">Swinburne University of Technology</a></div>
-		<div class="location">Melbourne</div>
-		<div class="dates">Mar 2013 – Jan 2014</div>
-		<div class="duration">(10 months)</div>
-		<div class="details">
-			An invitational, filtered marketing system comprising two web
-			applications, two mobile applications, and a server with a REST API.
-			<p>
-			The company deregistered in 2016 without releasing the product. 
-			<p>
-			Features:
-			<ul>
-				<li>2013 Top Final Year Project Group Prize</li>
-				<li>Engineering show case THING (2013)</li>
-			</ul>
-		</div>
-	</div>
-	<div class="project">
-		<div class="subsection-title">CHESTER The chess board</div>
-		<a target="_blank" href="http://www.swinburne.edu.au/"
-			class="institution">Swinburne University of Technology</a>
-		<div class="location">Melbourne</div>
-		<div class="dates">Feb 2012 - Nov 2012</div>
-		<div class="duration">(10 months)</div>
-		<div class="details">
-			This project was to develop the traditional, static chess set into a
-			modern, self-moving board, but without the bulky peripherals of a 
-			robotic arm or such - as has commonly been done in the past.
-			A human can sit down at a Chester and manually move their pieces,
-			while the board can slide the opponent’s pieces without visible
-			manipulation.
-			<p>
-			Features:
-			<ul>
-				<li>Scope - Tv Show (20th of June 2013)</li>
-				<li>Open day (2013 & 2012)</li>
-			</ul>
-			<iframe width="420" height="315"
-			src="https://www.youtube.com/embed/VNRBDaGyVU0">
-			</iframe>
-		</div>
+	<div class="education">
+		<div class="subsection-title">Victorian Certificate of Education (VCE)</div>
+		<div class="institution">Mt Clear College</div>
+		<div class="location">Ballarat</div>
+		<div class="dates">2007</div>
 	</div>
 </section>
 
